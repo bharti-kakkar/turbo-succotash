@@ -7,7 +7,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 document.getElementById('scene-container').appendChild(renderer.domElement);
 
 const loader = new THREE.GLTFLoader();
-loader.load('./scene.gltf", (gltf) => {
+loader.load('scene.gltf", (gltf) => {
             scene.add(gltf.scene);
             }
            );
